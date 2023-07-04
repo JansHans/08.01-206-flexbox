@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: lightsteelblue;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: lightsteelblue;
     text-shadow: none;
 }
 
@@ -96,9 +96,10 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: #fff;
+    background-color: lightsteelblue;
     height: 100%;
     width: 100%;
+    margin: 0 auto;
 }
 
 body {
@@ -106,50 +107,72 @@ body {
     padding: 0 2em;
     font-size: 1.25em;
     height: 100%;
-    color: #fff;
+    color: seashell;
 }
+
+
 
 header,
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222;
+    background-color: lightsteelblue;
     height: 80px;
     width: 100%;
+}
+
+header {
+    padding: 0 2em;
+    font-size: 1.5em;
+    justify-content: flex-start;
+
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ccc;
-    height: 250px;
+    background-color: seashell;
+    color: lightsteelblue;
+    padding: 0 2em;
+    height: 200px;
     width: 100%;
 }
 
-header,
-footer,
-main {}
+main span {
+    font-weight: 700;
+}
 
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flex-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: seashell;
     line-height: 1.5em;
-    font-size: 1.6em;
-    background-color: #f16059;
+    font-size: 1.2em;
+    background-color: lightsteelblue;
     width: 30%;
-    height: 200px;
+    height: auto;
+    padding: 0 5px;
+}
+
+#div-1,
+#div-2 {
+    border-right-style: solid;
+    border-color: seashell;
+    border-width: 1px;
+    height: auto;
+    
+
 }
 
 /* ==========================================================================
